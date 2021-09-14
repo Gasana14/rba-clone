@@ -1,0 +1,367 @@
+
+
+.jp-audio{
+	width: 100%;
+	border: 1px solid rgba(0,0,0,.02);
+}
+
+
+.podcast_row .jp-gui.jp-interface {
+	position: relative
+}
+
+#podcast_jp_gui  {
+	min-height: 100px;
+	position: relative;
+	width: 100%;
+}
+#podcast_jp_gui .jp-controls{
+	padding: 10px 10px 0px;
+	width: 155px;
+	margin: auto;
+}
+
+#podcast_jp_gui .jp-progress {
+    width: 100px;
+	top: 5px;
+	margin: auto;
+	left: 0px;
+	position: relative
+}
+
+#podcast_jp_gui .jp-time-holder {
+    width: 200px;
+	top: -10px;
+	left: 0px;
+	margin: auto;
+	position: relative
+}
+
+#podcast_jp_gui .jp-volume-controls {
+    width: 100px;
+	top: 10px;
+	left: 10px;
+	position: relative
+}
+
+#podcast_jp_gui .jp-toggles{
+    width: 100px;
+	top: 10px;
+	left: 90px;
+	position: relative
+}
+
+.jp-audio .jp-type-playlist .jp-time-holder {
+    left: 166px;
+    width: 100px;
+}
+
+.jp-duration{
+	width: 40px;
+}
+
+.jp-volume-controls{
+	left: 255px;
+}
+.jp-audio .jp-type-playlist .jp-toggles{
+	left: 280px;
+}
+
+.title_audio_categ{
+	padding: 5px 10px;
+}
+
+.podcast_row{
+}
+
+.radio_stream_div{
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(4,26,39,1)), to(rgb(0,134,211)));
+    background-color: #1f1f1f;
+    background-image: -moz-linear-gradient(rgba(4,26,39,1),rgb(0,134,211));
+    background-image: -webkit-linear-gradient(rgba(4,26,39,1),rgb(0,134,211));
+    background-image: -o-linear-gradient(rgba(4,26,39,1),rgb(0,134,211));
+    background-size: 100%;
+    z-index: 1500;
+	padding: 20px;
+	position: relative;
+}
+
+.radio_stream_div .stream_layout{
+	background: rgba(0,0,0,.5);
+	padding: 10px;
+	margin-top: 20px;
+}
+.radio_stream_div .radio-title{
+	color: #ddd;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+	text-shadow: 0 1.5px #000;
+}
+.radio_stream_div .stream_row{
+	min-height: 100px;
+	position: relative;
+}
+
+.stream_row .audio_signals{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;}
+	
+.audio_signals.au_1{
+	left: auto;
+	right: 0px;}
+
+.audio_signals img{
+	width: 100%;
+	display: block}
+
+
+/* AUdio Life stream */
+
+.jp-audio-stream {
+    width: 100%;
+}
+
+.podcast_signals{
+	top: 10px;
+	right: 25px;
+	position: absolute;
+}
+.podcast_signals img{
+	width: 30px;
+}
+
+@media (max-width: 768px){
+	.col-xs-12 {
+		width: 100%;
+	}
+}
+
+#jp_container_other .jp-volume-controls {
+	left: 95px;
+}
+#jp_container_other.jp-audio .jp-controls {
+	width: 100%;
+}
+
+.swap_radio{
+	text-align: center;
+	color: #fefefe;
+	font-size: 11px;
+	cursor: pointer;
+	z-index: 999;
+	padding: 3px 5px;
+	margin-top: 5px;
+	background: rgba(20,20,200,.4);
+	transition: all 500ms;
+	display: inline-block;
+	text-align: center;
+}
+
+.swap_radio:hover{
+	color: orange;
+}
+
+.swap_radio.open{
+	color: orange;
+}
+
+.xsRow{
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.xsRow_itetero{
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.xsCol{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.podcast_row,
+.other_radio_row .panel,
+.podcast_row .panel,
+.podcast_row .panel,
+.radio_stream_div{
+	min-height: 350px;
+	margin-bottom: 0px;
+}
+
+.other_radio_row .panel,
+.podcast_row .panel,
+.podcast_row .panel{
+	min-height: 350px;
+	margin-bottom: 0px;
+	background: rgba(0,0,0,.1)
+}
+
+.podcast_row  .jp-playlist_ul{
+	height: 140px;
+	overflow-y: hidden;
+}
+
+.pod_links_btn{
+padding: 5px 10px;
+text-align: center;}
+
+.pod_links_btn .btn{
+	font-size: 11px!important;
+	padding: 3px 10px;}
+
+.podcast_row  .jp-playlist_ul:hover{
+	overflow-y: scroll;
+}
+
+.radio_logo{
+	text-align: center;
+	padding: 15px 10px 10px 20px;
+	padding: 15px 10px 10px 10px;
+}
+
+.radio_logo img{
+	width: 200px;
+	max-height: 100px;
+	background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+
+.social_inner{
+	width: 100%;
+	overflow: hidden;
+}
+@media(max-width: 768px){
+	.social_inner{
+		padding-left: 0px;
+	}
+}
+
+
+.page-header {
+	margin: 10px 0px 20px;
+}
+	
+.radio_list{
+	padding: 0px;
+	margin: 0px;}
+
+/*.radio_list li a{
+	display: block;
+	padding: 3px 7px;
+	font-size: 12px;
+	text-decoration: none;
+}*/
+
+.radio_list li a{
+	display: block;
+	padding: 10px 7px;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.radio_list li a i{
+	font-weight: 600;
+}
+
+.radio_list li+li{
+	border-top: 1px solid #aabdaa;
+}
+
+.radio_list li.active a,
+.radio_list li a:hover{
+	color: orange;
+	background:rgba(255,255,255,1);
+}
+
+.radio_schedule{
+}
+
+#radio_section1 .panel {
+	width: 100%
+}
+
+.radio_program_page{
+	background: #1294da;
+	color: #000;
+	font-size: 12px;
+	line-height: 22px;
+	height: 325px;
+	padding: 5px;
+	overflow-y: scroll;
+}
+.other_podcast_row  .panel{
+}
+.other_podcast_row  .panel-body{
+	background: rgba(0,0,0,.1);
+	height: 345px;
+}
+
+
+.other_podcast_row  .jp-playlist_ul{
+	height: 210px;
+	overflow-y: hidden;
+}
+.other_podcast_row  .jp-playlist_ul:hover{
+	height: 210px;
+	overflow-y: scroll;
+}
+
+.radios_list_body{
+	height: 305px;
+	overflow-y: hidden;
+	padding: 4px 5px;
+	padding-bottom: 10px;
+}
+
+.radios_list_body:hover{
+	overflow-y: scroll;
+}
+
+.j_pod_container{
+    margin-bottom: 15px;
+}
+
+.j_pod_container .jp-controls{
+    padding-top: 5px;
+}
+
+
+.j_pod_container .jp-interface{
+    height: 70px;
+}
+.j_pod_container .jp-progress{
+    top: 12px;
+    width: 100px!important;
+}
+
+.j_pod_container .jp-type-single .jp-time-holder{
+    left: 30px;
+}
+
+.j_pod_container .jp-volume-controls{
+    top: 32px;
+    left: 110px;
+}
+
+.pod_categ_title{
+    margin: 0px 0px 5px 0px;
+    font-size: 17px;
+    font-weight: normal;
+    font-family: fantasy;
+}
+
+.pod_panel .panel-heading{
+	padding: 5px 10px;
+	}
+
+.j_pod_container .pod_description{
+    font-size: 12px; 
+    font-weight: normal; 
+    background: rgba(255,255,255,.2); 
+    border-top: 1px solid #ddd; 
+    padding: 5px 10px;
+	height: 60px;
+}
