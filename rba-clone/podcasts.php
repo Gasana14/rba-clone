@@ -1,3 +1,3 @@
 <? php
-include("podcasts.html");
+include_once("podcasts.html");
 ?>

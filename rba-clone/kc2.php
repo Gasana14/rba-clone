@@ -1,3 +1,3 @@
 <? php
-include("kc2.html");
+include_once("kc2.html");
 ?>
